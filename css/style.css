@@ -9,7 +9,7 @@ button {
 }
 
 .input-container-child {
-  margin-top: 120px !important;
+  margin-top: 90px !important;
 }
 
 @media all and (max-width: 1200px) {
@@ -38,6 +38,7 @@ label span {
 .center-text {
   color: #000;
   left: 50%;
+  transform: translateX(-50%);
   top: 50%;
   background-color: #fff;
   font-weight: 500;
@@ -47,4 +48,8 @@ label span {
 .blue-word {
   color: #0f3dde;
   font-weight: 600;
+}
+
+button:hover {
+  background-color: #47702a !important;
 }
